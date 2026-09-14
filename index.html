@@ -7,12 +7,12 @@
     <title>Ayuvista</title>
 </head>
 <body>
-    <section class="bg-[#3ffffff] relative ">
-        <nav class="md:w-[1440px] h-[64px] w-full rounded-[6px] md:relative flex justify-around items-center md:mx[200px] ">
-            <h2 class="md:w-[93px] h-[22px] md:absolute md:top-[21px] md:left-[45px] text-[20px] font-[poppins] font-bold leading-[22px] tracking-normal ">Ayuvista</h2>
+    <section class="bg-[#3ffffff] grid md:px-[5px]">
+        <nav class="max-sm:w-full w-full max-sm:mx-5 h-[64px] rounded-[6px] flex justify-between items-center md:mx[200px] ">
+            <h2 class="md:w-[93px] h-[22px] text-[20px] font-[poppins] font-bold leading-[22px] tracking-normal ">Ayuvista</h2>
 
             
-            <ul class="w-[708px] h-[22px] gap-[25px] hidden md:flex md:absolute md:top-[21px] md:left-[388px]">
+            <ul class="w-[708px] h-[22px] gap-[25px] hidden md:flex">
                 <li class="font-[poppins] font-semibold text-[16px] leadimg-[22px] w-[49px] h-[22px]"><a href="#">Home</a></li>
                 <li class="font-[poppins] font-semibold text-[16px] leadimg-[22px] w-[73px] h-[22px]"><a href="#">About us</a></li>
                 <li class="font-[poppins] font-semibold text-[16px] leadimg-[22px] w-[43px] h-[22px]"><a href="#">Yoga</a></li>
@@ -20,80 +20,442 @@
                 <li class="font-[poppins] font-semibold text-[16px] leadimg-[22px] w-[57px] h-[22px]"><a href="#">Price</a></li>
                 <li class="font-[poppins] font-semibold text-[16px] leadimg-[22px] w-[96px] h-[22px]"><a href="#">Help Center</a></li>
                 <li class="font-[poppins] font-semibold text-[16px] leadimg-[22px] w-[90px] h-[22px]"><a href="#">Contact us</a></li>
-                <li class="font-[poppins] font-semibold text-[16px] leadimg-[22px] w-[42px] h-[22px]"><a href="#">Ayurvedic</a></li>
+                <li class="font-[poppins] font-semibold text-[16px] leadimg-[22px] w-[42px] h-[22px]"><a href="#">FAQ</a></li>
             </ul>
 
-            <div class="md:w-[219px] h-[36px] flex items-center md:absolute md:top-[14px] md:left-[1190px]">
-                <ul class="w-[61px] h-[36px] rounded-[18px] -rotate-0 md:relative flex items-center justify-center">
-                    <li class="w-[45px] h-[22px] md:absolute md:top-[7px] left-[12px] font-[poppins] font-bold text-[16px] leading-[22px] text-[#636AE8]">Login</li>
+            <div class="h-[36px] flex items-center">
+                <ul class="w-[61px] h-[36px] rounded-[18px] flex items-center justify-center">
+                    <li class="w-[45px] h-[22px] font-[poppins] font-bold text-[16px] leading-[22px] text-[#636AE8]">Login</li>
                 </ul>
 
-                <ul class="w-[147px] h-[36px]  bg-[#636AE8] rounded-[18px] flex justify-center items-center">
+                <ul class="w-[147px] h-[36px]  bg-[#636AE8] rounded-[18px] flex justify-center items-center max-sm:hidden">
                     <li class="w-[89-px] h-[22px] top-[7px] font-[poppins] font-bold text-[16px] leading-[22px] text-[#ffffff]"><a href="#">Try for free</a></li>
                 </ul>
             </div>
             
         </nav>
-        <section class="md:w-[1440px] w-full h-[536px] md:absolute top-[64px] bg-[#F6F6F6] md:relative">
-            <div class="md:w-[468px] sm:w-full h-[223.25] md:absolute md:top-[120.75px] md:left-[500px] rounded-[26px] flex items-center justify-center flex-col">
+        <section class=" max-sm:w-full h-[536px] bg-[#F6F6F6] flex items-center justify-center relative">
+            <div class="md:w-[468px] sm:w-full h-[223.25] rounded-[26px] flex items-center justify-center flex-col">
                 <p class="md:w-[468px] h-[103px] font-[poppins] font-semibold text-[60px] md:text-[80px] leading-[129%] text-center text-[#171A1F]">Pranovista</p>
                 <p class="md:w-[417px] h-[65px] font-[poppins] font-semibold leading-[129%] text-center text-[#171A1F] text-[40px] md:text-[50px]">Wellness for you</p>
                 <ul class="w-[215px] h-[52px] rounded-[26px] bg-[#FFFFFF] flex items-center justify-center">
                     <li class="w-[75px] h-[28px] font-[inter] font-bold text-[20px] leading-[28px] text-[#636AE8]"><a href="#">Sign up</a></li>
                 </ul>
+                <img class="w-[200px] hidden h-auto rounded-full rounded-[134px]" src="/images/image 5.png" alt="">
+        
             </div>
-            <div class="hidden md:flex w-[85px] h-[85] md:absolute md:top-[128px] left-[64px] rounded-[43px]">
+            <div class="hidden md:flex max-w-[85px] max-h-[85] md:absolute md:top-[20px] lg:left-[200px] lg:flex   lg:top-[128px] lg:left-[100px] rounded-[43px] md:top-[100px] md:left-[0px]">
                 <img class="w-[89px] h-auto rounded-full object-cover object-center" src="/images/image.png" alt="">
             </div>
 
-            <div class=" hidden md:flex w-[120px] h-[120px] md:flex absolute top-[397px] left-[64px] rounded-[60px] overflow-hidden">
+            <div class=" hidden md:flex w-[120px] h-[120px] md:flex hidden absolute lg:top-[397px] lg:left-[200px] rounded-[60px] overflow-hidden lg:flex md:top-[300px] md:left-[0px] max-sm:flex max-sm:bottom-[3px] max-sm:flex max-sm:left-[20px] max-sm:w-[160px] max-sm:h-[160px]">
                 <img class="w-[174px] h-auto rounded-[full] top-[-14px] left-[-49px]" src="/images/image (1).png" alt="">
             </div>
 
-            <div class="hidden md:flex w-[256px] h-[256] absolute md:top-[184px] md:left-[200px] rounded-[128px]">
+            <div class="hidden md:flex w-[256px] h-[256] absolute lg:top-[184px] md:flex hidden lg:left-[500px] rounded-[128px] lg:flex md:left-[120px] md:top-[280px]">
                 <img class="w-[256px] h-auto rounded-full" src="/images/image 3.png" alt="">
             </div>
 
-            <div class="w-[267px] md:h-[267px] absolute md:top-[281px] left-[20%] min-[419px]:max-[716px]:left-[30%] bottom-[5%] md:left-[871px] rounded-[134px]">
+            <div class=" hidden md:w-[267px] md:h-[267px] md:flex absolute lg:top-[290px]  lg:left-[1250px] rounded-[134px] md:flex hidden lg:flex md:left-[600px] md:top-[300px]">
                 <img class="w-[451px] h-auto rounded-full" src="/images/image 5.png" alt="">
             </div>
 
-            <div class="hidden md:flex w-[160px] h-[160px] absolute top-[128px] left-[1084px] rounded-[80px]">
+            <div class="hidden md:flex w-[160px] h-[160px] absolute lg:top-[128px] lg:left-[1550px] rounded-[80px] md:flex hidden lg:flex md:left-[800px] md:top-[150px] max-sm:flex max-sm:bottom-[3px] max-sm:flex max-sm:right-[20px]">
                 <img class="w-[160px] h-auto rounded-full" src="/images/image (2).png" alt="">
             </div>
-            <div class="hidden md:flex w-[86px] h-[86px] absolute top-[328px] left-[1290px] rounded-[43px]">
+            <div class="hidden md:flex w-[86px] h-[86px] absolute lg:top-[350px] lg:left-[1660px] rounded-[43px] md:flex md:top-[70px] hidden lg:flex max-sm:flex max-sm:top-[50px]">
                 <img class="w-[86px] h-auto rounded-full" src="/images/image 4.png" alt="">
             </div>
         </section>
 
-        <section class="md:w-[1440px] h-[560px] md:relative md:absolute top-[100px] bg-[#ffffff] flex flex-col">
-            <div>
+        <!-- About us -->
+        <section class=" h-[560px] bg-[#ffffff] flex w-full mt-[150px] flex-col md:flex-row md:relative gap-[20px] md:px-[150px] max-sm:flex max-sm:flex-col  max-sm:justify-center max-sm:items-center">
+            <div class="flex flex-col gap-[15px] max-sm:gap-1.25 max-sm:justify-center max-sm:items-center">
                 <p class="w-[252px] h-[22px] font-[poppins] font-normal text-[14px] leading-[22px] text-[#323842]">Dolore dolore voluptate aliqua ut mi</p>
                 <p class="w-[221px] h-[74px] font-[Archivo] font-bold text-[52px] leading-[74px] text-[#323842]">About us</p>
                 <img class="w-[247px] h-[24px]" src="/images/Image 73.png" alt="#">
-                <p class="md:w-[472px] h-[234px] font-[poppins] font-normal text-[17px] leading-[150%] text-[#000000]">Pranovista is a holistic wellness company dedicated to promoting a balanced and healthy lifestyle through the ancient practices of yoga and Ayurveda. With a deep-rooted commitment to well-being, Pranovista offers personalized wellness solutions that blend traditional wisdom with modern needs. Our expert-guided programs focus on enhancing physical, mental, and spiritual harmony, empowering individuals to achieve optimal health naturally</p>
+                <p class="md:w-[472px] h-[234px] font-[poppins] font-normal text-[17px] leading-[150%] text-[#000000] max-sm:text-center">Pranovista is a holistic wellness company dedicated to promoting a balanced and healthy lifestyle through the ancient practices of yoga and Ayurveda. With a deep-rooted commitment to well-being, Pranovista offers personalized wellness solutions that blend traditional wisdom with modern needs. Our expert-guided programs focus on enhancing physical, mental, and spiritual harmony, empowering individuals to achieve optimal health naturally</p>
                 <button class="w-[242px] h-[52px] border border-[#636AE8] pointer flex items-center justify-center rounded-[26px]"><p class="w-[100px] h-[28px] font-[inter] font-[bold] text-[18px] leading-[28px] text-[#636AE8]">Learn more</p></button>
             </div>
-            <div class="w-[235px] h-[268px] md:absolute md:top-[168px] md:left-[660px] rounded-[2px] flex md:flex-col gap-[10px]">
-                <div>
-                    <p class="w-[178px] h-[36px] font-[Archivo] font-bold text-[24px] leading-[36px] text-[#636AE8]"></p>
-                </div>
-                <div class="w-[210px] h-[51px] rounded-[16px] flex bg-[#F2F2FD] items-center justify-center justify-between">
+
+            <!-- card -->
+            <div class="max-w-[235px] md:absolute h-[268px] lg:top-[100px] lg:left-[900px] items-center rounded-[2px] grid md:flex-col shadow gap-[20px] rounded-[10px] p-[10px] md:top-[80px] md:left-[700px] ">
+            
+                <p class="w-[200px] h-[36px] font-[Archivo] font-bold text-[24px] leading-[36px] text-[#636AE8] text-center pl-[25px]">Eiusmod comm</p>
+            
+                <div class="w-[210px] h-[51px] rounded-[16px] flex bg-[#F2F2FD] items-center p-[20px] gap-[5px]">
                     <img class="w-[24px] h-[24px]" src="/images/Wifi high.png" alt="">
                     <p class="w-[98px]  h-[28px] font-medium text-[16px] leading-[28px] text-[#636AE8]">Connection</p>
                 </div>
-                <div class="w-[210px] h-[51px] rounded-[16px] flex bg-[#FDF1F5] items-center justify-center justify-between">
+                <div class="w-[210px] h-[51px] rounded-[16px] flex bg-[#FDF1F5] items-center p-[20px] gap-[5px]">
                     <img class="w-[24px] h-[24px]" src="/images/Vector (4).png" alt="">
                     <p class="w-[50px]  h-[28px] font-medium text-[18px] leading-[28px] text-[#E8618C]">Share</p>
                 </div>
-                <div class="w-[210px] h-[51px] rounded-[16px] flex bg-[#FEF9EE] items-center justify-center justify-between">
+                <div class="w-[210px] h-[51px] rounded-[16px] flex bg-[#FEF9EE] items-center p-[20px] gap-[5px]">
                     <img class="w-[24px] h-[24px]" src="/images/Vector (5).png" alt="">
                     <p class="w-[90px]  h-[28px] font-medium text-[18px] leading-[28px] text-[#98690C]">Instantiate</p>
                 </div>
             </div>
 
-            <div class="w-[488px] h-[517px] relative absolute top-[43px] left-[820xpx] opacity-1 rounded-tl-[244px] rounded-tr-[244px] bg-[#e6aec1]">
-                <img class="w-[485px] h-[459px] absolute top-[57.75px]" src="./images/Remove background project (2).png" alt="">
+            <!-- about image -->
+            <div class="w-[600px] hidden h-[517px] absolute lg:top-[-15px] lg:left-[1060px] rounded-t-full items-center justify-center  bg-[#FDF1F5] lg:flex">
+                <img class="w-[485px] h-[459px] pt-[40px]" src="./images/Remove background project (2).png" alt="">
+            </div>
+        </section>
+
+        <!-- Feature -->
+        <section class=" md:px-[150px] mt-[150px] relative  ">
+            <div>
+                <p class="w-58.7 h-5.5 font-[archivo] font-normal text-[14px] leading-[22px] text-center text-[#323842]">Dolore dolore voluptate aliqua ut mi</p>
+                <p class="w-58.7 h-5.5 font-[archivo] font-bold text-[52px] leading-[74px] text-center text-[#323842]">Features</p>
+            </div>
+
+            <div class=" lg:grid lg:grid-cols-10 gap-[10px] pt-[50px] max-sm:px-[50px] max-sm:gap-[10px] max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center">
+                <!-- Feature div 1 -->
+                <div class="w-full h-[320px] rounded-[20px] flex flex-col bg-[#BAF3EB] p-[20px] justify-between col-span-4">
+                
+                    <!-- div paragraph -->
+                    <div class=" flex flex-col gap-[10px]">
+                        <p class="h-[48px] font-[archivo] font-bold text-[32px] leading-[48px] text-[#323842]">Features</p>
+                        <p class="w-[320px] h-[90px] font-[inter] font-light text-[20px] leading-[30px] text-[#323842] text-wrap">Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat</p>
+                    </div>
+                    <a class="w-[61px] h-[26px] font-[inter] font-light text-[16px] leading-[26px] text-center text-[#1BA18D] underline" href="#">Try now</a>
+                </div>
+
+             <!-- Feature div 2 -->
+                <div class=" w-full h-[320px] rounded-[20px] bg-[#CED0F8] p-[20px] flex flex-col justify-between col-span-5">
+                
+                    <!-- div paragraph -->
+                    <div class="w-[300px] flex flex-col gap-[10px]">
+                        <p class="h-[48px] font-[archivo] font-bold text-[32px] leading-[48px] text-center text-[#323842]">Features</p>
+                        <p class="w-[320px] h-[90px] font-[inter] font-light text-[20px] leading-[30px] text-[#323842] text-wrap">Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat ullamco ulla</p>
+                    </div>
+                    <a class="w-[61px] h-[26px] font-[inter] font-light text-[16px] leading-[26px] text-center text-[#1BA18D] underline" href="#">Try now</a>
+                </div>
+
+                 <!-- Feature div 3 -->
+                <div class=" relative w-full h-[320px] rounded-[20px] flex flex-col bg-[#F8DBD0] p-[20px] justify-between col-span-5">
+                
+                    <!-- div paragraph -->
+                    <div class=" flex flex-col gap-[10px]">
+                        <p class="h-[48px] font-[archivo] font-bold text-[32px] leading-[48px] text-[#323842]">Features</p>
+                        <p class="w-[320px] h-[90px] font-[inter] font-light text-[20px] leading-[30px] text-[#323842] text-wrap">Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat</p>
+                    </div>
+                    <a class="w-[61px] h-[26px] font-[inter] font-light text-[16px] leading-[26px] text-center text-[#1BA18D] underline" href="#">Try now</a>
+                    <img class="absolute right-5 top-10" src="./images/feature_Image1.png" alt="">
+                </div>
+
+             <!-- Feature div 4 -->
+                <div class="w-full relative h-[320px] rounded-[20px] bg-[#FDF1F5] p-[20px] flex flex-col justify-between col-span-4">
+                
+                    <!-- div paragraph -->
+                    <div class="w-[300px] flex flex-col gap-[10px]">
+                        <p class="h-[48px] font-[archivo] font-bold text-[32px] leading-[48px] text-center text-[#323842]">Features</p>
+                        <p class="w-[320px] h-[90px] font-[inter] font-light text-[20px] leading-[30px] text-[#323842] text-wrap">Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat ullamco ulla</p>
+                    </div>
+                    <a class="w-[61px] h-[26px] font-[inter] font-light text-[16px] leading-[26px] text-center text-[#1BA18D] underline" href="#">Try now</a>
+                    <img class="absolute w-[160px] h-[180px] -bottom-0 right-0" src="./images/feature_Image2.png" alt="">
+                </div>
+            </div>
+
+            <img class="absolute max-2xl:hidden xl:flex lg:top-0 lg:right-0" src="./images/feature_dot.png" alt="">
+        </section>
+
+        <!-- Product -->
+        <section class="  max-sm:mt-[50px]] md:mt-[100px] md:px-[150px] max-sm:p-0 max-sm:justify-center justify-between">
+            <div class="flex flex-col justify-between items-center">
+                <p class="w-[299px] h-[68px] font-[archivo] font-bold text-[48px] leading-[68px] text-[#323842] text-center">Features</p>
+                <div class="w-[301px] h-[36px] rounded-[6.5px]">
+                    <button class="w-[150.5px] h-[36px] rounded-[6px] bg-[#636AE8]"></button>
+                    <button class="w-[150.5px] h-[36px] rounded-[6px] bg-[#FFFFFF]"></button>
+                </div>
+            </div>
+
+            <!-- product -->
+            <div class="flex gap-[70px] max-sm:flex-col max-sm:justify-center max-sm:items-center">
+                <!-- product 1 -->
+                <div class="w-[276px] h-[464px] rounded-[16px]">
+                    <div class="relative"><img class="w-[276px] h-[334px] h-[6px]" src="./images/product1.png" alt="product" >
+                        <div class="w-[78px] h-[28px] bg-[#E8618C] flex items-center justify-center rounded-[14px] absolute top-[0] right-1"><p class="h-[20px] font-[inter] font-normal text-[12px] leading-[20px]">Best-seller</p></div>
+                    </div>
+                    <div>
+                        <p class="w-[150px] h-[20px] font-[archvio] font-extrabold text-[18px] leading-[28px] text-[#171A1F]">Product title</p>
+                        <p class="h-[22px] font-[archvio] font-extrabold text-[14px] leading-[22px] text-[#323842]">Deserunt non fugiat aute cons</p>
+                        <div class="flex items-center">
+                            <div class="flex gap-[10px] items-center justify-between">
+                                <p class="h-[22px] font-[inter] font-bold text-[32px] leading-[48pxpx] text-[#323842]">$32</p>
+                                <p class="h-[22px] font-[inter] text-[14px] leading-[22px] text-[#323842]">$42</p>
+                            </div>
+                            <div class="w-[44px] h-[44px] border border-[#636AE8] rounded-full flex items-center justify-center"><img src="./images/Shopping cart.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- product 2 -->
+                <div class="w-[276px] h-[464px] rounded-[16px]">
+                    <div class="relative"><img class="w-[276px] h-[334px] h-[6px]" src="./images/product1.png" alt="product" >
+                        <div class="w-[78px] h-[28px] bg-[#E8618C] flex items-center justify-center rounded-[14px] absolute top-[0] right-1"><p class="h-[20px] font-[inter] font-normal text-[12px] leading-[20px]">Best-seller</p></div>
+                    </div>
+                    <div>
+                        <p class="w-[150px] h-[20px] font-[archvio] font-extrabold text-[18px] leading-[28px] text-[#171A1F]">Product title</p>
+                        <p class="h-[22px] font-[archvio] font-extrabold text-[14px] leading-[22px] text-[#323842]">Deserunt non fugiat aute cons</p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex gap-[10px] items-center">
+                                <p class="h-[22px] font-[inter] font-bold text-[32px] leading-[48pxpx] text-[#323842]">$32</p>
+                                <p class="h-[22px] font-[inter] text-[14px] leading-[22px] text-[#323842]">$42</p>
+                            </div>
+                            <div class="w-[44px] h-[44px] border border-[#636AE8] rounded-full flex items-center justify-center"><img src="./images/Shopping cart.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- product 2 -->
+                <div class="w-[276px] h-[464px] rounded-[16px]">
+                    <div class="relative"><img class="w-[276px] h-[334px] h-[6px]" src="./images/product1.png" alt="product" >
+                        <div class="w-[78px] h-[28px] bg-[#E8618C] flex items-center justify-center rounded-[14px] absolute top-[0] right-1"><p class="h-[20px] font-[inter] font-normal text-[12px] leading-[20px]">Best-seller</p></div>
+                    </div>
+                    <div>
+                        <p class="w-[150px] h-[20px] font-[archvio] font-extrabold text-[18px] leading-[28px] text-[#171A1F]">Product title</p>
+                        <p class="h-[22px] font-[archvio] font-extrabold text-[14px] leading-[22px] text-[#323842]">Deserunt non fugiat aute cons</p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex gap-[10px] items-center">
+                                <p class="h-[22px] font-[inter] font-bold text-[32px] leading-[48pxpx] text-[#323842]">$32</p>
+                                <p class="h-[22px] font-[inter] text-[14px] leading-[22px] text-[#323842]">$42</p>
+                            </div>
+                            <div class="w-[44px] h-[44px] border border-[#636AE8] rounded-full flex items-center justify-center"><img src="./images/Shopping cart.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- product 3 -->
+                <div class="w-[276px] h-[464px] rounded-[16px]">
+                    <div class="relative"><img class="w-[276px] h-[334px] h-[6px]" src="./images/product1.png" alt="product" >
+                        <div class="w-[78px] h-[28px] bg-[#E8618C] flex items-center justify-center rounded-[14px] absolute top-[0] right-1"><p class="h-[20px] font-[inter] font-normal text-[12px] leading-[20px]">Best-seller</p></div>
+                    </div>
+                    <div>
+                        <p class="w-[150px] h-[20px] font-[archvio] font-extrabold text-[18px] leading-[28px] text-[#171A1F]">Product title</p>
+                        <p class="h-[22px] font-[archvio] font-extrabold text-[14px] leading-[22px] text-[#323842]">Deserunt non fugiat aute cons</p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex gap-[10px] items-center">
+                                <p class="h-[22px] font-[inter] font-bold text-[32px] leading-[48pxpx] text-[#323842]">$32</p>
+                                <p class="h-[22px] font-[inter] text-[14px] leading-[22px] text-[#323842]">$42</p>
+                            </div>
+                            <div class="w-[44px] h-[44px] border border-[#636AE8] rounded-full flex items-center justify-center"><img src="./images/Shopping cart.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!-- our customer -->
+        <section class="w-full mt-[100px]">
+            <div class="">
+                <p class=" font-[archivo] font-bold text-[20px] leading-[30px] text-center text-[#323842]">Our customers</p></div>
+            
+                <div class="flex justify-between items-center max-sm:grid max-sm:grid-cols-2 mt-[50px]">
+                    <img class="w-[196px] h-[140px]" src="./images/customer1.png" alt="">
+                    <img class="w-[196px] h-[140px]" src="./images/customer2.png" alt="">
+                    <img class="w-[196px] h-[140px]" src="./images/customer3.png" alt="">
+                    <img class="w-[196px] h-[140px]" src="./images/customer4.png" alt="">
+                    <img class="w-[196px] h-[140px]" src="./images/customer5.png" alt="">
+                    <img class="w-[196px] h-[140px]" src="./images/customer6.png" alt="">
+                    <img class="w-[196px] h-[140px]" src="./images/customer3.png" alt="">
+                    <img class="w-[196px] h-[140px]" src="./images/customer7.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-[100px] lg:px-[150px] mt-[100px]">
+            <div class="flex justify-center max-sm:hidden">
+                <div class="w-[214.2px] h-[52px] rounded-[6px] bg-[#CED0F8] flex justify-center items-center"><p class="h-[28px] font-[inter] text-[18px] leading-[28px] text-[#636AE8]">Benefits</p></div>
+                <div class="w-[214.2px] h-[52px] rounded-[6px] flex justify-center items-center"><p class="h-[28px] font-[inter] text-[18px] leading-[28px] text-[#636AE8]">Ingredients</p></div>
+                <div class="w-[214.2px] h-[52px] rounded-[6px] flex justify-center items-center"><p class="h-[28px] font-[inter] text-[18px] leading-[28px] text-[#636AE8]">How to use</p></div>
+                <div class="w-[214.2px] h-[52px] rounded-[6px] flex justify-center items-center"><p class="h-[28px] font-[inter] text-[18px] leading-[28px] text-[#636AE8]">Reviews</p></div>
+                <div class="w-[214.2px] h-[52px] rounded-[6px] flex justify-center items-center"><p class="h-[28px] font-[inter] text-[18px] leading-[28px] text-[#636AE8]">FAQs</p></div>
+            </div>
+            <div class="flex max-sm:flex-col justify-between gap-[50px] items-center mt-[50px]">
+                <div class="">
+                    <div class="w-[495px]">
+                        <p class="h-[56px] font-[archivo] font-bold text-[40px] leading-[56px] text-[#323842]">Benefits</p>
+                        <p class="h-[78px] font-[inter]  text-[16px] leading-[26px] text-[#323842]">Consectetur excepteur elit ullamco incididunt voluptate tempor exercitation. Lorem commodo ullamco quis velit officia aute laboris elit sit exercitation ut esse pariatur occaecat quis</p>
+                    </div>
+
+                    <div class="w-[495px]">
+                        <p class="h-[56px] font-[inter] font-bold text-[20px] leading-[30px] text-[#323842]">Laboris consequat ad</p>
+                        <p class="h-[78px] font-[inter]  text-[16px] leading-[26px] text-[#323842]">Consectetur excepteur elit ullamco incididunt voluptate tempor exercitation. Lorem commodo ullamco quis velit officia aute laboris elit sit exercitation ut esse pariatur</p>
+                    </div>
+
+                    <div class="w-[495px]">
+                        <p class="h-[56px] font-[inter] font-bold text-[20px] leading-[30px] text-[#323842]">Duis duis do labore pariatur </p>
+                        <p class="h-[78px] font-[inter]  text-[16px] leading-[26px] text-[#323842]">Ad qui aliqua nulla nostrud consectetur laboris nostrud commodo voluptate. Lorem id qui laborum aute voluptate </p>
+                    </div>
+
+                    <div class="w-[495px]">
+                        <p class="h-[56px] font-[inter] font-bold text-[20px] leading-[30px] text-[#323842]">Deserunt ex</p>
+                        <p class="h-[78px] font-[inter]  text-[16px] leading-[26px] text-[#323842]">Cupidatat culpa id do laboris nisi aliqua eu. Veniam aliqua duis Lorem adipisicing et minim velit quis</p>
+                    </div>
+
+                </div>
+
+                <div class="max-sm:pl-[20px]">
+                    <div class="w-[557px] h-[696px] bg-[#D9D9D9] rounded-[16px]"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section class="mt-[100px] bg-[#FAFAFB] flex justify-center items-center max-sm:flex-col w-full md:justify-between lg:pl-[150px] lg:p-[30px]">
+            <div  class="max-w-[400px] max-h-[334px] w-full">
+                <p class="font-[inter]  text-[14px] leading-[22px] text-[#323842]">Dolore dolore voluptate aliqua ut mi</p>
+                <p class="h-[78px] font-[inter] font-bold text-[52px] leading-[74px] text-[#323842]">Blog</p>
+                <p class="h-[78px] font-[inter]  text-[14px] leading-[22px] text-[#323842]">Laborum dolore aute et incididunt commodo consectetur eiusmod magna.</p>
+                <a class="underline" href="#">View more</a>
+                <div class="flex justify-end">
+                    <hr>
+                    <div class="flex gap-3">
+                        <div class="w-[52px] h-[52px] flex items-center justify-center rounded-full border border-[#BCC1CA]">
+                            <img src="./images/Chevron left large.png" alt="">
+                        </div>
+                        <div class="w-[52px] h-[52px] flex items-center justify-center rounded-full border border-[#2C35E0]">
+                            <img src="./images/Chevron right large.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[400px] max-h-[434px] rounded-[6px] bg-[#ffffff] shadow">
+                <img class="w-[400px] max-h-[300px]" src="./images/Image 86.png" alt="">
+                <div class="flex flex-col gap-3 p-3">
+                  <p class="font-[inter]  text-[14px] leading-[22px] text-[#323842]">Subtitle</p>
+                  <p class="font-[inter]  text-[18px] leading-[28px] text-[#171A1F]">Blog title</p>
+                  <p class="font-[inter]  text-[14px] leading-[22px] text-[#323842]">Description about the product: quis nostrud exercitation ullamco </p>
+                </div>
+            </div>
+
+            <div class="max-w-[400px] max-h-[434px] rounded-[6px] bg-[#ffffff] shadow">
+                <img class="w-[400px] max-h-[300px]" src="./images/Image 86.png" alt="">
+                <div class="flex flex-col gap-3 p-3">
+                  <p class="font-[inter]  text-[14px] leading-[22px] text-[#323842]">Subtitle</p>
+                  <p class="font-[inter]  text-[18px] leading-[28px] text-[#171A1F]">Blog title</p>
+                  <p class="font-[inter]  text-[14px] leading-[22px] text-[#323842]">Description about the product: quis nostrud exercitation ullamco </p>
+                </div>
+            </div>
+
+            <div class="max-w-[400px] max-h-[434px] rounded-[6px] bg-[#ffffff] shadow ab">
+                <img class="w-[400px] max-h-[300px]" src="./images/Image 86.png" alt="">
+                <div class="flex flex-col gap-3 p-3">
+                  <p class="font-[inter]  text-[14px] leading-[22px] text-[#323842]">Subtitle</p>
+                  <p class="font-[inter]  text-[18px] leading-[28px] text-[#171A1F]">Blog title</p>
+                  <p class="font-[inter]  text-[14px] leading-[22px] text-[#323842]">Description about the product: quis nostrud exercitation ullamco </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="px-[150px] w-full mt-[50px]">
+            <div class=" h-[240px] rounded-[20px] border-[2px] flex justify-center items-center flex-col">
+                <p class="font-[archivo] font-bold  text-[48px] leading-[68px] text-[#171A1F]">Getting started</p>
+                <button class="w-[242px] h-[52px] rounded-[26px] bg-[#6CB174]"><p class="font-[inter] font-extrabold  text-[18px] leading-[28px] text-[#ffffff]">Sign Up</p></button>
+            </div>
+        </section>
+
+        <section class="bg-[#1D2128] mt-[50px]">
+            <div class="flex md:px-[150px] justify-between max-sm:flex-col w-full py-[50px]">
+              <div class="flex flex-col md:gap-[100px] max-sm:gap-4">
+                 <p class="font-[archivo] font-bold  text-[52px] leading-[74px] text-[#ffffff]">Get In Touch</p>
+                 <div>
+                     <div class="flex gap-[10px]">
+                         <img class="w-[18px] h-[18px]" src="./images/instagram.png" alt="">
+                         <img class="w-[18px] h-[18px]" src="./images/basket_ball.png" alt="">
+                         <img class="w-[18px] h-[18px]" src="./images/linkedin.png" alt="">
+                         <img class="w-[18px] h-[18px]" src="./images/mail.png" alt="">
+                    </div>
+                    <div class="flex gap-[5px]">
+                         <p class="font-[inter]  text-[14px] leading-[22px] text-[#ffffff]">© 2022 Brand, Inc.</p>
+                         <ul class="flex gap-[20px]">
+                             <li class="font-[inter]  text-[14px] leading-[22px] text-[#ffffff] list-disc">Privacy</li>
+                             <li class="font-[inter]  text-[14px] leading-[22px] text-[#ffffff] list-disc">Terms</li>
+                             <li class="font-[inter]  text-[14px] leading-[22px] text-[#ffffff] list-disc">Sitemap</li>
+                         </ul>
+                    </div>
+                     
+                 </div>
+             </div>
+             <div class="flex flex-col gap-[15px]">
+                 <fieldset class="border text-white w-[587px]">
+                     <legend>Name</legend>
+                     <input class="focus:outline-none focus:ring-0" type="text" placeholder="Enter your Name">
+                 </fieldset>
+                 <fieldset class="border text-white">
+                     <legend>Email</legend>
+                     <input class="focus:outline-none focus:ring-0" type="email" placeholder="Enter your Name">
+                 </fieldset>
+ 
+                 <fieldset class="border text-white max-h-[147px] max-w-[589px]">
+                     <legend>How can we help?</legend>
+                     <textarea class="focus:outline-none focus:ring-0" name="message" id="1"></textarea>
+                 </fieldset>
+                 <button class="bg-[#636AE8] w-[173px] h-[52px] rounded-[6px]"><p class="font-[poppins] font-semibold text-[18px] leading-[28px] text-[#ffffff]">Submit</p></button>
+             </div>
+            </div>
+        </section>
+
+        <section class="md:px-[150px] mt-[50px]">
+            <div class="flex justify-between max-sm:flex-col">
+                <div class="flex gap-[100px]">
+                    <div class="flex flex-col gap-[10px]">
+                        <p class="font-[poppins] font-bold  text-[20px] leading-[30px] text-[#000000]">About</p>
+                        <p class="font-[poppins] text-[14px] leading-[22px] text-[#000000]">Home</p>
+                        <p class="font-[poppins] text-[14px] leading-[22px] text-[#000000]">Shop</p>
+                        <p class="font-[poppins] text-[14px] leading-[22px] text-[#000000]">Our story</p>
+                        <p class="font-[poppins] text-[14px] leading-[22px] text-[#000000]">Blog</p>
+                    </div>
+
+                    <div class="flex flex-col gap-[10px]">
+                        <p class="font-[poppins] font-bold  text-[20px] leading-[30px] text-[#000000]">Help</p>
+                        <p class="font-[poppins] text-[14px] leading-[22px] text-[#000000]">Shipping & Returns</p>
+                        <p class="font-[poppins] text-[14px] leading-[22px] text-[#000000]">Track Order</p>
+                        <p class="font-[poppins] text-[14px] leading-[22px] text-[#000000]">Track Order</p>
+                    </div>
+
+                    <div class="flex flex-col gap-[10px]">
+                        <p class="font-[poppins] font-bold  text-[20px] leading-[30px] text-[#000000]">Contact</p>
+                        <p class="font-[poppins] text-[14px] leading-[22px] text-[#000000]">Phone: </p>
+                        <p class="font-[poppins] font-bold text-[14px] leading-[22px] text-[#000000]">(+1) 123 456 7893</p>
+                        <p class="font-[poppins] text-[14px] leading-[22px] text-[#000000]">Email: </p>
+                        <p class="font-[poppins] font-bold text-[14px] leading-[22px] text-[#000000]">name@email.com</p>
+                    </div>
+
+                </div>
+
+                <div class="grid gap-[5px]">
+                    
+                    <div class="grid gap-[5px]">
+                        <p class="font-[poppins] font-bold text-[24px] leading-[36px] text-[#000000]">Receive new promotions</p>
+                        <p class="font-[poppins] text-[16px] leading-[26px] text-[#000000]">Duis ea tempor commodo amet reprehende </p>
+                        <div class="flex">
+                        <input class="max-w-[303px] max-h-[100px] border rounded-l-[16px]" type="email" placeholder="Input your email">
+                        <button class="max-w-[126px] max-h-[52px] rounded-tr-[16px] rounded-br-[16px] bg-[#636AE8]"><p class="font-[inter] text-[18px] leading-[28px] text-[#ffffff]">Subscribe</p></button>
+                    </div>
+                    <div class="grid gap-[20px]">
+                        <div class="flex gap-[10px]">
+                             <img class="w-[18px] h-[18px]" src="./images/Logo twitter 19.png" alt="">
+                             <img class="w-[18px] h-[18px]" src="./images/Logo facebook 19.png" alt="">
+                             <img class="w-[18px] h-[18px]" src="./images/Logo linkedin 19.png" alt="">
+                             <img class="w-[18px] h-[18px]" src="./images/Logo youtube 19.png" alt="">
+                        </div>
+
+                        <div class="flex gap-[5px]">
+                            <p class="font-[inter]  text-[14px] leading-[22px] text-[#000000]">© 2022 Brand, Inc.</p>
+                            <ul class="flex gap-[20px]">
+                                <li class="font-[inter]  text-[14px] leading-[22px] text-[#000000] list-disc">Privacy</li>
+                                <li class="font-[inter]  text-[14px] leading-[22px] text-[#000000] list-disc">Terms</li>
+                                <li class="font-[inter]  text-[14px] leading-[22px] text-[#000000] list-disc">Sitemap</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
     </section>
